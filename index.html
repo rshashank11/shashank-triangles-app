@@ -7,16 +7,16 @@
     <title>Triangles App</title>
 </head>
 <body>
-    <h1>Fun with Triangles</h1>
     <nav id="nav">
-        <a class="links" href="#" target="_blank" rel="noopener noreferrer">Triangle?</a>
-        <a class="links" href="" target="_blank" rel="noopener noreferrer">Angle Conversion</a>
-        <a class="links" href="" target="_blank" rel="noopener noreferrer">Triangle Quiz</a>
-        <a class="links" href="" target="_blank" rel="noopener noreferrer">Hypotenuse Calculator</a>
-        <a class="links" href="" target="_blank" rel="noopener noreferrer">Area Calculator</a>
+        <h1>Fun with Triangles</h1>
+        <a class="links" href="index.html" rel="noopener noreferrer">Triangle?</a>
+        <a class="links" href="angle-conversion.html" rel="noopener noreferrer">Angle Conversion</a>
+        <a class="links" href="" rel="noopener noreferrer">Triangle Quiz</a>
+        <a class="links" href="" rel="noopener noreferrer">Hypotenuse Calculator</a>
+        <a class="links" href="" rel="noopener noreferrer">Area Calculator</a>
         
     </nav>
-    <form action="" method="get">
+    <form class="form">
         <h2>Triangle?</h2>
         <label for="angle-1">Angle 1(in degrees)</label>
         <input type="number" class="input-angle" id="angle-1" min="0">
@@ -25,7 +25,8 @@
         <label for="angle-3">Angle 3(in degrees)</label>
         <input type="number" class="input-angle" id="angle-3" min="0">
         <button type="button" id="btn-check">Triangle?</button>
-        <output for="input-angle angle-2">0</output>
+        <output id="output-result" for="input-angle angle-2"></output>
+        <output id="error"></output>
     </form>
     <script src="triangle.js"></script>
 </body>

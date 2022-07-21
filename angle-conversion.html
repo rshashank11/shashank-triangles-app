@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Conversion</title>
+</head>
+<body>
+    <nav id="nav">
+        <h1>Degrees to Radians Conversion</h1>
+        <a class="links" href="index.html" rel="noopener noreferrer">Triangle?</a>
+        <a class="links" href="angle-conversion.html" rel="noopener noreferrer">Angle Conversion</a>
+        <a class="links" href="" rel="noopener noreferrer">Triangle Quiz</a>
+        <a class="links" href="" rel="noopener noreferrer">Hypotenuse Calculator</a>
+        <a class="links" href="" rel="noopener noreferrer">Area Calculator</a>
+        <button id="btn-deg-rad">Degrees to Radians</button>
+        <button id="btn-rad-deg">Radians to Degree</button>
+    </nav>
+    <section id="section-deg-rad">
+        <label for="input-degree">Degrees:</label>
+        <input id="input-degree" type="number" min="0" placeholder="Enter degrees">
+        <label for="output-radians">Radians:</label>
+        <output style="padding: 5px 100px; border: 2px solid black; border-radius: 10px;" id="output-radians"></output>
+        <button id="btn-convert-deg">Convert</button>
+    </section>
+
+    <section id="section-rad-deg">
+        <label for="input-radians">Radians:</label>
+        <input id="input-radians" type="number" min="0" placeholder="Enter radians">
+        <label for="output-degree">Degrees:</label>
+        <output style="padding: 5px 100px; border: 2px solid black; border-radius: 10px;" id="output-degree"></output>
+        <button id="btn-convert-rad">Convert</button>
+    </section>
+
+    <script src="angle-conversion.js"></script>    
+</body>
+</html>
